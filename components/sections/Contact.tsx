@@ -35,7 +35,7 @@ export function Contact() {
 
     try {
       const res = await fetch(
-        `https://submit.formspark.io/f/${process.env.NEXT_PUBLIC_FORMSPARK_FORM_ID}`,
+        `https://submit-form.com/${process.env.NEXT_PUBLIC_FORMSPARK_FORM_ID}`,
         {
           method: 'POST',
           headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
